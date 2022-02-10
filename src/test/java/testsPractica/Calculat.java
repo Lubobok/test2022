@@ -15,6 +15,19 @@ public class Calculat {
         WebDriver driver = new ChromeDriver();
         driver.get("http://google.com");
         driver.findElement(By.cssSelector("input.gLFyf.gsfi")).sendKeys("калькулятор", Keys.ENTER);
+        driver.findElement(By.cssSelector("div [jsname=j93WEe]")).click();
+        driver.findElement(By.cssSelector("div [jsname=N10B9]")).click();
+        driver.findElement(By.cssSelector("div [jsname=XSr6wc]")).click();
+        driver.findElement(By.cssSelector("div [jsname=lVjWed]")).click();
+        driver.findElement(By.cssSelector("div [jsname=qCp9A]")).click();
+        driver.findElement(By.cssSelector("div [jsname=YovRWb]")).click();
+        driver.findElement(By.cssSelector("div [jsname=KN1kY]")).click();
+        driver.findElement(By.cssSelector("div [jsname=pPHzQc]")).click();
+        driver.findElement(By.cssSelector("div [jsname=xAP7E]")).click();
+        driver.findElement(By.cssSelector("div [jsname=bkEvMb]")).click();
+        driver.findElement(By.cssSelector("div [jsname=WxTTNd]")).click();
+        driver.findElement(By.cssSelector("div [jsname=Ax5wH]")).click();
+        driver.findElement(By.cssSelector("div [jsname=Pt8tGc]")).click();
         driver.quit();
     }
 }
