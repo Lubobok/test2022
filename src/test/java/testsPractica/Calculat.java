@@ -41,5 +41,6 @@ public class Calculat {
   @AfterAll
   public static void feardown() {
     driver.quit();
+  }
 }
 
