@@ -48,6 +48,15 @@ public class Calculat {
     driver.findElement(By.cssSelector("div [jsname=Pt8tGc]")).click();
   }
 
+  @Test
+  public void test3() {
+    driver.get("http://google.com");
+    driver.findElement(By.cssSelector("input.gLFyf.gsfi")).sendKeys("калькулятор", Keys.ENTER);
+    driver.findElement(By.cssSelector("div [jsname=aN1RFf]")).click();
+    driver.findElement(By.cssSelector("div [jsname=j93WEe]")).click();
+    driver.findElement(By.cssSelector("div [jsname=Pt8tGc]")).click();
+  }
+
   @AfterAll
   public static void feardown() {
     driver.quit();
