@@ -38,6 +38,16 @@ public class Calculat {
     driver.findElement(By.cssSelector("div [jsname=Pt8tGc]")).click();
   }
 
+  @Test
+  public void test2() {
+    driver.get("http://google.com");
+    driver.findElement(By.cssSelector("input.gLFyf.gsfi")).sendKeys("калькулятор", Keys.ENTER);
+    driver.findElement(By.cssSelector("div [jsname=abcgof]")).click();
+    driver.findElement(By.cssSelector("div [jsname=WxTTNd]")).click();
+    driver.findElement(By.cssSelector("div [jsname=bkEvMb]")).click();
+    driver.findElement(By.cssSelector("div [jsname=Pt8tGc]")).click();
+  }
+
   @AfterAll
   public static void feardown() {
     driver.quit();
